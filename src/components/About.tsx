@@ -4,7 +4,7 @@ const stats = [
   { icon: Award, value: '10+', label: 'Progetti Completati' },
   { icon: Users, value: '10+', label: 'Clienti Soddisfatti' },
   { icon: Clock, value: '24/48h', label: 'Tempi di Consegna' },
-  { icon: TrendingUp, value: '1+', label: 'Anni di Esperienza' }
+  { icon: TrendingUp, value: '0,6+', label: 'Anni di Esperienza' }
 ];
 
 export default function About() {
