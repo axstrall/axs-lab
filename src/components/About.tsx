@@ -1,10 +1,10 @@
 import { Award, Users, Clock, TrendingUp } from 'lucide-react';
 
 const stats = [
-  { icon: Award, value: '100+', label: 'Progetti Completati' },
-  { icon: Users, value: '50+', label: 'Clienti Soddisfatti' },
+  { icon: Award, value: '10+', label: 'Progetti Completati' },
+  { icon: Users, value: '10+', label: 'Clienti Soddisfatti' },
   { icon: Clock, value: '24/48h', label: 'Tempi di Consegna' },
-  { icon: TrendingUp, value: '2+', label: 'Anni di Esperienza' }
+  { icon: TrendingUp, value: '1+', label: 'Anni di Esperienza' }
 ];
 
 export default function About() {
