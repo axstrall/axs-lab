@@ -33,9 +33,9 @@ export default function Header() {
         <div className="flex justify-between items-center h-20">
           <a href="#" className="flex items-center gap-3 group">
             <img
-              src="/AXS_LAKE_DARKER_VISIBLE_TREES.png"
+              src="/axs.png"
               alt="AXS LAB"
-              className="h-12 w-auto group-hover:scale-110 transition-transform duration-300"
+              className="h-14 w-auto group-hover:scale-110 transition-transform duration-300"
             />
           </a>
 
