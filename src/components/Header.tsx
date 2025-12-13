@@ -23,10 +23,10 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? 'bg-white/95 backdrop-blur-sm shadow-lg'
-          : 'bg-transparent'
+   className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    isScrolled
+      ? 'bg-white/95 backdrop-blur-sm shadow-lg text-teal-900'
+      : 'bg-[#13504C] text-white'
       }`}
     >
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +35,7 @@ export default function Header() {
             <img
               src="/axs.png"
               alt="AXS LAB"
-              className="h-14 w-auto group-hover:scale-110 transition-transform duration-300"
+              className="h-16 w-auto group-hover:scale-110 transition-transform duration-300"
             />
           </a>
 

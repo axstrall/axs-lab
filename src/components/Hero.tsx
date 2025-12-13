@@ -12,10 +12,10 @@ export default function Hero() {
       <div
         className="absolute inset-0 pointer-events-none opacity-[0.14]"
         style={{
-          backgroundImage: "url('/AXS_LAKE_DARKER_VISIBLE_TREES.png')",
+          backgroundImage: "url('axs-l.png')",
           backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center 78%',
-          backgroundSize: '1200px auto',
+          backgroundPosition: 'center center',
+          backgroundSize: '700px auto',
         }}
       />
 
